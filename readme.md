@@ -38,11 +38,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Wat ging goed?
+- Het is al weer een hele tijd geleden dat we een website hebben moeten coderen, maar gelukkig zat ik er snel weer in
+- Het html-en 
+
+Wat vond ik lastig?
+- Het positioneren van de verschillende elementen
+- Het werken met verschillende lagen
+
+Waar ik nog niet aan toe ben gekomen?
+- het werken aan de tweede pagina
+- het implementen van javascript
+- het toevoegen van annimaties
+
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/week3.voortgang.png" width="700px" alt="homepage collusion gecodeerd">
 
 ### Agenda voor meeting
 
