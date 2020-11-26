@@ -69,7 +69,11 @@ Waar ik nog niet aan toe ben gekomen?
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Dingen die nog beter kunnen:
+- classes verwijderen op de sections, nth-of-type gebruiken
+- h1-h4 nog even checken, uitleg van een product is dat een h3?
+- alle classes op de flexbox in ul li lijstjes zetten
+- % en em mogen beide gebruikt worden (geen px)
 
 
 
