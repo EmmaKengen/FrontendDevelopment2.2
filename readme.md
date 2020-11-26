@@ -61,11 +61,11 @@ Waar ik nog niet aan toe ben gekomen?
 
 -samen met je groepje opstellen-
 
-| Adriaan        | Dionne             | Emma         | Giovannie        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Adriaan                                             | Dionne                             | Emma                               | Giovanni       |
+| ---                                                 | ---                                | ---                                | ---               |
+| In hoever moet je je javascript kunnen uitleggen    | Semantisch correct                 | Semantisch correct                 | Checken of ik goed op weg bent |
+|                                                     | beste manier om html te selecteren | Checken of goed op weg ben         |                       |
+| ...                                                 | ...                                | ...                                | ...                  |
 
 ### Verslag van meeting
 
