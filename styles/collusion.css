@@ -1,0 +1,409 @@
+body{
+    margin:0;
+    font-family:"Helvetica Neue", helvetica, arial;
+    text-transform:uppercase;
+    max-width: 414px;
+}
+/*header*/
+header nav{
+    display:none;
+}
+
+header{
+    height:10em;
+    width: 100%;
+    background-color:rgb(247,247,247);
+    position: relative;
+}
+
+header img{
+    width:9em;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+header h1{
+    font-size:1.2em;
+    width:15em;
+    position: absolute;
+    z-index: 2;
+    left:4em;
+    top:2.5em;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    font-size:0.7em;
+    position: absolute;
+    padding:0.8em;
+    bottom:1em;
+    left:7em;
+}
+/*begin background*/
+/*eerste afbeelding op de indexpagina*/
+div.background{
+    background: url("../images/achtergrond1.jpg") no-repeat top center;
+    margin-left:4em;
+    height:60em;
+}
+/*achtergrond kleur van de main naar paars*/
+div.background2{
+    background-color: rgb(223,217,248);
+    position: relative;
+    margin-left:4em;
+    top:-1em;
+    height:210em;
+}
+div.background2 img{
+    width:19em;
+    position: absolute;
+    right:0;
+    top:-4.4em;
+}
+/*einde background*/
+
+/*begin main*/
+/*eerste section*/
+main h2{
+    font-size:1.2em;
+    border-bottom: 1px solid grey;
+    padding-left:2.5em;
+    margin-left:-2em;
+}
+
+main section.firstSection{
+    position:relative;
+    height:15em;
+}
+main section div.container{
+    display: flex;
+    flex-flow:row wrap;
+    align-content:stretch;
+    top:2em;
+    position: absolute;
+}
+div.container a{
+    text-decoration: none;
+    color:black;
+    background-color:rgb(215,221,254);
+    margin:0.1em 0.1em 0em 0;
+    padding:0.5em;
+    font-size:0.9em;
+    height:1em;
+}
+section.firstSection p:first-of-type{
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    margin-left:-1.5em;
+}
+/*eerste article*/
+article.firstArticle p:first-of-type{
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    margin-left:-1.5em;
+}
+
+main article p:nth-of-type(2){
+    writing-mode:vertical-rl;
+    position: absolute;
+    left:0;
+    top:6em;
+    color:white;
+    font-size:5em;
+    line-height: 0.8;
+    font-weight: 500;
+}
+/*tweede section*/
+section.secondSection{
+    height:35em;
+    position: relative
+}
+section.secondSection h2{
+    position: absolute;
+    width:100%;
+    top:-7em;
+    padding-left:4em;
+}
+div.container2{
+    display: flex;
+    position: absolute;
+    top:-6.2em;
+    right:0;
+}
+section.secondSection button{
+    width:4em;
+    height:2.1em;
+    background-color:rgb(241, 203, 203);
+    border:none;
+    margin:0.1em;
+}
+section.secondSection a{
+    text-decoration: none;
+    color:black;
+    background-color:rgb(223,217,248);
+    width:3em;
+    position: absolute;
+    z-index: 2;
+    padding:0.5em;
+    margin-left:2.9em; margin-top:-6.5em;
+}
+section.secondSection p:nth-of-type(2){
+    position: absolute;
+    bottom:0;
+    left:2em;
+    font-size:1.3em;
+    font-weight: 600;
+}
+/*Derde section*/
+section.thirdSection{
+    position: relative;
+    height:50em;
+}
+section.thirdSection img{
+    position: relative;
+    right:-3em;
+    top:-7.1em;
+}
+div.container3{
+    display:flex;
+    position: absolute;
+    z-index:1;
+    right:0;
+    top:1em;
+}
+div.container3 button{
+    width:4em;
+    height:2.1em;
+    background-color:rgb(241, 203, 203);
+    border:none;
+    margin:0.1em;
+}
+div.container4 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    top:3em;
+    left:3em;
+}
+div.container4 a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(254, 251, 171);
+    margin:0.1em 0.1em 0em 0;
+    padding:0.4em;
+    font-size:1.1em;
+    height:1em;
+}
+div.container4 a:first-of-type{
+    background-color:rgb(215, 221, 254);
+}
+
+section.thirdSection p:first-of-type{
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    margin-left:-1.5em;
+}
+section.thirdSection img + h3{
+    position: absolute;
+    bottom:7.5em;
+    left:2.2em;
+    font-size:1.3em;
+    font-weight: 600;
+}
+section.thirdSection p:nth-of-type(2){
+    position: absolute;
+    bottom:6em;
+    left:2.2em;
+    font-size:1.3em;
+    font-weight: 600;
+}
+
+/*Tweede article*/
+article.secondArticle{
+    position: relative;
+    height:30em;
+}
+article.secondArticle h2{
+    position: absolute;
+    top:-7em;
+    width:20em;
+}
+article.secondArticle img{
+    width:21.8em;
+    top:-5.9em
+}
+
+article.secondArticle h3{
+    position: absolute;
+    background-color:black;
+    color:white;
+    padding:1em 0.2em;
+    bottom:-1em;
+    font-size:1.5em;
+}
+/*Vierde section*/
+section.fourthSection{
+    position: relative;
+    height:50em;
+}
+section.fourthSection h3{
+    font-size:1.4em;
+    font-weight: 500;
+    margin: 0.7em 0.5em;
+}
+
+section.fourthSection p:first-of-type{
+    font-size:0.9em;
+    font-weight: 500;
+    margin: 1em 0.7em;
+}
+
+div.container5 {
+    display: flex;
+    flex-direction: column;
+}
+div.container5 input,button{
+    border:none;
+    padding:0.6em 0.3em;
+    margin:0.1em 0.7em;
+}
+div.container5 button{
+    background-color:rgb(241,203,203);
+    text-align: left;
+    font-family:"Helvetica Neue", helvetica, arial;
+    text-transform:uppercase;
+    font-weight: 500;
+}
+section.fourthSection p:nth-of-type(2){
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    margin-left:-1.5em;
+    margin-top:-13em;
+}
+
+/*vijfde section*/
+section.fifthSection{
+    position: relative;
+}
+div.container6{
+    display:flex;
+    position: absolute;
+    z-index: 2;
+    top:1.1em;
+    right:0;
+}
+div.container6 button{
+    width:4em;
+    height:2.1em;
+    background-color:rgb(241, 203, 203);
+    border:none;
+    margin:0.1em;
+}
+div.container7{
+    display:flex;
+    position: absolute;
+    z-index: 3;
+    top:3em;
+}
+div.container7 a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(254, 251, 171);
+    margin:0.1em 0.1em 0em 0;
+    padding:0.5em 0.3em;
+    font-size:0.95em;
+    height:1em;
+}
+div.container7 a:first-of-type{
+    background-color:rgb(215, 221, 254);
+}
+section.fifthSection img{
+    position: absolute;
+    width:21.9em;
+    z-index: 1;
+    top:3.1em;
+}
+section.fifthSection h3{
+    position: absolute;
+    z-index: 4;
+    writing-mode:vertical-rl;
+    top:2em;
+    font-size: 3em;
+    padding:0; margin: 0;
+    color:rgb(51, 105, 109);
+}
+section.fifthSection p:first-of-type{
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    margin-left:-1.5em;
+    margin-top:0;
+}
+
+/*zesde section*/
+section.sixSection{
+    position: relative;
+    background-color:rgb(247,247,247);
+    top:-1.1em; left:4em;
+    height: 26em;
+    width:21.9em;
+}
+section.sixSection h2{
+    position: absolute;
+    width:100%;
+    font-size:1.4em;
+}
+section.sixSection h3:first-of-type{
+    writing-mode:vertical-rl;
+    position: absolute;
+    top:1em;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+section.sixSection a{
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    font-size:0.7em;
+    position: absolute;
+    padding:0.8em;
+    bottom:6em;
+    left:1em;
+    width:15em
+}
+section.sixSection p:first-of-type{
+    position: absolute;
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    margin-left:-1.5em;
+    margin-top:3.5em;
+}
+/*footer*/
+footer ul:first-of-type{
+    display: flex;
+    flex-direction: column;
+    margin-left:4em;
+    border-top:1px solid grey;
+    width:21em;
+    list-style-type:none;
+}
+footer ul li{
+    list-style-type:none;
+    margin:0.5em;
+    margin-left: 0;
+}
+footer ul:first-of-type li a{
+    text-decoration: none;
+    color:black;
+    padding:0.5em;
+}
+footer p:first-of-type{
+    font-size: 0.6em;
+    color:grey;
+    margin-left:7em;
+}
+
