@@ -6,9 +6,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://chenhuijing.com/blog/flexbox-and-absolute-positioning/#%F0%9F%8F%80
+2. https://www.collusion.com/
+3. https://developer.mozilla.org/en-US/docs/Web/CSS/display
+4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 
@@ -54,13 +55,13 @@ Waar ik nog niet aan toe ben gekomen?
 
 **Screenshot(s):**
 
-<img src="images/week3.voortgang.png" width="700px" alt="homepage collusion gecodeerd">
+<img src="images/week3.voortgang.png" width="375px" alt="homepage collusion gecodeerd">
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Adriaan        | Dionne             | Emma         | Giovannie        |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
