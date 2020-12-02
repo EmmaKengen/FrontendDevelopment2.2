@@ -103,4 +103,4 @@ Dingen die nog beter kunnen:
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/pagina2.png" width="375px" height="667px" alt="winkelwagen website">
+<img src="images/pagina2.png" width="375px" height="667px" overflow="hidden" alt="winkelwagen website">
