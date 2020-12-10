@@ -1,409 +1,552 @@
 body{
-    margin:0;
+    margin:0; padding:0;
     font-family:"Helvetica Neue", helvetica, arial;
     text-transform:uppercase;
-    max-width: 414px;
-}
-/*header*/
-header nav{
-    display:none;
 }
 
+/*header indexpagina..............................*/
 header{
-    height:10em;
-    width: 100%;
+    height: 12em; margin-bottom: 1em;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 25% 40% 70%;
+    grid-row-gap: 0.3em;
+    grid-auto-flow:row;
     background-color:rgb(247,247,247);
-    position: relative;
 }
-
-header img{
-    width:9em;
-    position: absolute;
-    top:0;
-    right:0;
+/*header detailpagina...........................*/
+#detailpagina header{
+    margin-bottom: 1em;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100% 100% 50%;
+    grid-row-gap: 0.3em;
+    grid-auto-flow:row;
 }
-
-header h1{
-    font-size:1.2em;
-    width:15em;
-    position: absolute;
-    z-index: 2;
-    left:4em;
-    top:2.5em;
-}
-
-header a{
-    text-decoration: none;
-    color:white;
-    background-color:black;
-    font-size:0.7em;
-    position: absolute;
-    padding:0.8em;
-    bottom:1em;
-    left:7em;
-}
-/*begin background*/
-/*eerste afbeelding op de indexpagina*/
-div.background{
-    background: url("../images/achtergrond1.jpg") no-repeat top center;
-    margin-left:4em;
-    height:60em;
-}
-/*achtergrond kleur van de main naar paars*/
-div.background2{
-    background-color: rgb(223,217,248);
-    position: relative;
-    margin-left:4em;
-    top:-1em;
-    height:210em;
-}
-div.background2 img{
-    width:19em;
-    position: absolute;
-    right:0;
-    top:-4.4em;
-}
-/*einde background*/
-
-/*begin main*/
-/*eerste section*/
-main h2{
-    font-size:1.2em;
-    border-bottom: 1px solid grey;
-    padding-left:2.5em;
-    margin-left:-2em;
-}
-
-main section.firstSection{
-    position:relative;
-    height:15em;
-}
-main section div.container{
-    display: flex;
-    flex-flow:row wrap;
-    align-content:stretch;
-    top:2em;
-    position: absolute;
-}
-div.container a{
-    text-decoration: none;
-    color:black;
-    background-color:rgb(215,221,254);
-    margin:0.1em 0.1em 0em 0;
-    padding:0.5em;
-    font-size:0.9em;
-    height:1em;
-}
-section.firstSection p:first-of-type{
-    writing-mode:vertical-rl;
-    font-size:0.3;
-    margin-left:-1.5em;
-}
-/*eerste article*/
-article.firstArticle p:first-of-type{
-    writing-mode:vertical-rl;
-    font-size:0.3;
-    margin-left:-1.5em;
-}
-
-main article p:nth-of-type(2){
-    writing-mode:vertical-rl;
-    position: absolute;
-    left:0;
-    top:6em;
-    color:white;
-    font-size:5em;
-    line-height: 0.8;
-    font-weight: 500;
-}
-/*tweede section*/
-section.secondSection{
-    height:35em;
-    position: relative
-}
-section.secondSection h2{
-    position: absolute;
+header img:nth-of-type(2){
     width:100%;
-    top:-7em;
-    padding-left:4em;
+    grid-column: 2;
+    grid-row:1;
+    margin:0; padding:0;
 }
-div.container2{
-    display: flex;
-    position: absolute;
-    top:-6.2em;
-    right:0;
+#detailpagina header h1{
+    grid-column: 2;
+    grid-row:3;
+    align-self: start;
+    margin: 0;
 }
-section.secondSection button{
-    width:4em;
-    height:2.1em;
-    background-color:rgb(241, 203, 203);
-    border:none;
-    margin:0.1em;
-}
-section.secondSection a{
-    text-decoration: none;
-    color:black;
-    background-color:rgb(223,217,248);
-    width:3em;
-    position: absolute;
-    z-index: 2;
-    padding:0.5em;
-    margin-left:2.9em; margin-top:-6.5em;
-}
-section.secondSection p:nth-of-type(2){
-    position: absolute;
-    bottom:0;
-    left:2em;
-    font-size:1.3em;
-    font-weight: 600;
-}
-/*Derde section*/
-section.thirdSection{
-    position: relative;
-    height:50em;
-}
-section.thirdSection img{
-    position: relative;
-    right:-3em;
-    top:-7.1em;
-}
-div.container3{
-    display:flex;
-    position: absolute;
-    z-index:1;
-    right:0;
-    top:1em;
-}
-div.container3 button{
-    width:4em;
-    height:2.1em;
-    background-color:rgb(241, 203, 203);
-    border:none;
-    margin:0.1em;
-}
-div.container4 {
+#detailpagina header ul{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    z-index: 2;
-    top:3em;
-    left:3em;
+    margin:0; padding:0;
+    grid-column: 2;
+    grid-row:3;
+    align-self: end;
 }
-div.container4 a{
-    text-decoration: none;
-    color:black;
-    background-color: rgb(254, 251, 171);
-    margin:0.1em 0.1em 0em 0;
-    padding:0.4em;
-    font-size:1.1em;
-    height:1em;
-}
-div.container4 a:first-of-type{
-    background-color:rgb(215, 221, 254);
+#detailpagina header ul li{
+    width:40%;
+    font-size:0.8em;
 }
 
-section.thirdSection p:first-of-type{
-    writing-mode:vertical-rl;
-    font-size:0.3;
-    margin-left:-1.5em;
-}
-section.thirdSection img + h3{
-    position: absolute;
-    bottom:7.5em;
-    left:2.2em;
-    font-size:1.3em;
-    font-weight: 600;
-}
-section.thirdSection p:nth-of-type(2){
-    position: absolute;
-    bottom:6em;
-    left:2.2em;
-    font-size:1.3em;
-    font-weight: 600;
-}
-
-/*Tweede article*/
-article.secondArticle{
+/*hamburger menu.................................*/
+header button{
     position: relative;
-    height:30em;
-}
-article.secondArticle h2{
-    position: absolute;
-    top:-7em;
-    width:20em;
-}
-article.secondArticle img{
-    width:21.8em;
-    top:-5.9em
-}
-
-article.secondArticle h3{
-    position: absolute;
-    background-color:black;
-    color:white;
-    padding:1em 0.2em;
-    bottom:-1em;
-    font-size:1.5em;
-}
-/*Vierde section*/
-section.fourthSection{
-    position: relative;
-    height:50em;
-}
-section.fourthSection h3{
-    font-size:1.4em;
-    font-weight: 500;
-    margin: 0.7em 0.5em;
-}
-
-section.fourthSection p:first-of-type{
-    font-size:0.9em;
-    font-weight: 500;
-    margin: 1em 0.7em;
-}
-
-div.container5 {
-    display: flex;
-    flex-direction: column;
-}
-div.container5 input,button{
+    width:3em; height: 3em;
+    margin:1em; padding:0em;
+    font-size:1em;
+    appearance:none;
     border:none;
-    padding:0.6em 0.3em;
-    margin:0.1em 0.7em;
-}
-div.container5 button{
-    background-color:rgb(241,203,203);
-    text-align: left;
-    font-family:"Helvetica Neue", helvetica, arial;
-    text-transform:uppercase;
-    font-weight: 500;
-}
-section.fourthSection p:nth-of-type(2){
-    writing-mode:vertical-rl;
-    font-size:0.3;
-    margin-left:-1.5em;
-    margin-top:-13em;
-}
-
-/*vijfde section*/
-section.fifthSection{
-    position: relative;
-}
-div.container6{
     display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    grid-column:1;
+    grid-row:1;
+}
+header button span{
     position: absolute;
-    z-index: 2;
-    top:1.1em;
-    right:0;
-}
-div.container6 button{
-    width:4em;
-    height:2.1em;
-    background-color:rgb(241, 203, 203);
-    border:none;
-    margin:0.1em;
-}
-div.container7{
-    display:flex;
-    position: absolute;
-    z-index: 3;
-    top:3em;
-}
-div.container7 a{
-    text-decoration: none;
-    color:black;
-    background-color: rgb(254, 251, 171);
-    margin:0.1em 0.1em 0em 0;
-    padding:0.5em 0.3em;
-    font-size:0.95em;
-    height:1em;
-}
-div.container7 a:first-of-type{
-    background-color:rgb(215, 221, 254);
-}
-section.fifthSection img{
-    position: absolute;
-    width:21.9em;
-    z-index: 1;
-    top:3.1em;
-}
-section.fifthSection h3{
-    position: absolute;
-    z-index: 4;
-    writing-mode:vertical-rl;
-    top:2em;
-    font-size: 3em;
-    padding:0; margin: 0;
-    color:rgb(51, 105, 109);
-}
-section.fifthSection p:first-of-type{
-    writing-mode:vertical-rl;
-    font-size:0.3;
-    margin-left:-1.5em;
-    margin-top:0;
-}
-
-/*zesde section*/
-section.sixSection{
-    position: relative;
-    background-color:rgb(247,247,247);
-    top:-1.1em; left:4em;
-    height: 26em;
-    width:21.9em;
-}
-section.sixSection h2{
-    position: absolute;
-    width:100%;
-    font-size:1.4em;
-}
-section.sixSection h3:first-of-type{
-    writing-mode:vertical-rl;
-    position: absolute;
-    top:1em;
-    font-size: 4em;
-    margin: 0;
-    padding: 0;
-}
-section.sixSection a{
-    text-decoration: none;
-    color:white;
+    width:1.5em; height: 0.1em;
     background-color:black;
-    font-size:0.7em;
-    position: absolute;
-    padding:0.8em;
-    bottom:6em;
-    left:1em;
-    width:15em
 }
-section.sixSection p:first-of-type{
-    position: absolute;
-    writing-mode:vertical-rl;
-    font-size:0.3;
-    margin-left:-1.5em;
-    margin-top:3.5em;
+header button span:first-of-type{
+    transform:translatey(-0.5em);
 }
-/*footer*/
-footer ul:first-of-type{
-    display: flex;
-    flex-direction: column;
-    margin-left:4em;
-    border-top:1px solid grey;
-    width:21em;
-    list-style-type:none;
+header button span:last-of-type{
+    transform:translatey(0.5em);
 }
-footer ul li{
-    list-style-type:none;
-    margin:0.5em;
-    margin-left: 0;
+header nav{
+    display: none;
 }
-footer ul:first-of-type li a{
+
+header img:first-of-type{
+    grid-column: 2;
+    grid-row:1;
+    justify-self:end;
+    width:10em
+
+}
+header h1{
+    grid-column: 2;
+    grid-row:2;
+    font-size:1.2em;
+}
+header a{
+    grid-column: 2;
+    grid-row:3;
     text-decoration: none;
-    color:black;
+    font-size:0.8em; color:white;
+    background-color:black;
+    width:10em;height:1.3em;
     padding:0.5em;
 }
-footer p:first-of-type{
-    font-size: 0.6em;
-    color:grey;
-    margin-left:7em;
+/*Main indexpagina..............................*/
+h2{
+    font-size:1.2em;
+    border-bottom: 1px solid grey;
+    padding:0 0 0 2.5em;
+    margin:0 0 0 -2em;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
 }
 
+/*Sections instellen op grid............................*/
+main section{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 65% 15%;
+    grid-row-gap: 0.3em;
+    grid-auto-flow:row;
+}
+main section h2{
+    grid-column:2;
+    grid-row:1;
+    align-self:end;
+}
+
+main section p:first-of-type{
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    grid-column: 1;
+    grid-row:2;
+}
+/*Article instellen op grid............................*/
+main article{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows:15% 100%;
+    grid-row-gap: 0.3em;
+    grid-auto-flow:row;
+}
+main article h2{
+    grid-column:2;
+    grid-row:1;
+    align-self:end;
+}
+main article p:first-of-type{
+    writing-mode:vertical-rl;
+    font-size:0.3;
+    grid-column: 1;
+    grid-row:2;
+}
+/*Section 1 styling indexpagina..........................*/
+div:first-of-type section:first-of-type ul{
+    display:flex;
+    flex-wrap: wrap;
+    grid-column:2;
+    grid-row: 2;
+    margin:0 0 0 -2em;
+    align-self: flex-start;
+}
+div:first-of-type section:first-of-type li{
+    background-color:plum;
+    margin:0.1em 0.1em; padding:0.3em;
+    height:2em; font-size:0.7em;
+}
+/*section 1 styling detailpagina.........*/
+#detailpagina section{
+    border-top:1px solid grey;
+    margin:20em 0;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 5% 10% 35% 15% 17% 10% 30%;
+    grid-row-gap: 0.3em;
+    grid-auto-flow:row;
+}
+#detailpagina section a:first-of-type{
+    grid-column: 2;
+    grid-row:1;
+    align-self: start;
+    background-color: plum;
+    width:7em;
+    font-size:0.8em;
+    text-align: center;
+    padding:0.3em;
+}
+#detailpagina section h2{
+    grid-column: 2;
+    grid-row:2;
+    border:none;
+    align-self:start;
+}
+#detailpagina section a:nth-of-type(2){
+    grid-column: 2;
+    grid-row:2;
+    align-self: center;
+    background-color: black; color:white;
+    font-size:0.8em;
+    width:20em;
+    padding:0.3em;
+}
+#detailpagina section p:nth-of-type(2){
+    grid-column: 2;
+    grid-row:3;
+    align-self: start;
+    text-transform: none;
+}
+#detailpagina section img{
+    grid-column: 2;
+    grid-row:3;
+    align-self: end;
+    width:15em;
+}
+#detailpagina section p:nth-of-type(3){
+    grid-column: 2;
+    grid-row:4;
+    text-transform: none;
+}
+#detailpagina section p:nth-of-type(4){
+    grid-column: 2;
+    grid-row:5;
+    text-transform: none;
+}
+#detailpagina section p:nth-of-type(5){
+    grid-column: 2;
+    grid-row:6;
+    text-transform: none;
+}
+#detailpagina section ul{
+    grid-column: 2;
+    grid-row:7;
+    display:flex; margin:0; padding:0;
+    overflow-x: auto;
+}
+#detailpagina section ul li{
+    width:30em;
+    flex-shrink:0;
+    height:100%;
+}
+/*Article 1 styling*/
+main div article:first-of-type p:nth-of-type(2){
+    grid-column:2;
+    grid-row:2;
+    writing-mode:vertical-rl;
+    justify-self:start;
+    font-size:3em;
+    margin:0;
+}
+/*Section 2 styling...................*/
+div:nth-of-type(2) section:first-of-type{
+    height:50em;
+}
+div:nth-of-type(2) section:first-of-type img:first-of-type, div:nth-of-type(2) section:nth-of-type(2) img{
+    grid-column-start:2;
+    grid-column-end: span 3;
+    grid-row-start:2;
+    grid-row-end: span 2;
+    margin-left:7%;
+    width:93%;
+    position: relative;
+}
+div:nth-of-type(2) section:first-of-type ul {
+    display: flex;
+    grid-column:2;
+    grid-row:1;
+    justify-self:end;
+    align-self:end;
+    margin:0.1em;
+}
+div:nth-of-type(2) section:first-of-type ul li{
+    width:2em; height:1em;
+    background-color:pink;
+    text-align: center;
+    padding:0.5em; margin:0 0.03em;
+}
+div:nth-of-type(2) section:first-of-type ul li button{
+    background-color: pink;
+    border:none;
+    font-size:1em;
+}
+div:nth-of-type(2) section:first-of-type a{
+    grid-column:2;
+    grid-row:2;
+    margin-left:2em;
+    width:5em; height:2em; padding-top:0.5em;
+    background-color:plum;
+    text-align:center;
+}
+div:nth-of-type(2) section:first-of-type p:nth-of-type(2){
+    grid-column:2;
+    grid-row:3;
+    font-size:1.4em;
+    margin-left:1em;
+    font-weight: 600;
+}
+/*Section 3 styling.......................*/
+div:nth-of-type(2) section:nth-of-type(2) ul{
+    display: flex;
+    flex-direction: row;
+    grid-column:2;
+    grid-row:2;
+}
+div:nth-of-type(2) section:nth-of-type(2) ul li{
+    width:5em; height:2em;
+    padding:0 0.1em;
+    color:lightyellow;
+    overflow: scroll;
+}
+div:nth-of-type(2) section:nth-of-type(2) ul li:first-of-type{
+    color:mediumpurple;
+}
+div:nth-of-type(2) section:nth-of-type(2) p:nth-of-type(2){
+    grid-column:2;
+    grid-row:3;
+    margin-left:7%;
+    font-size:1.8em;
+    font-weight: 500
+}
+div:nth-of-type(2) section:nth-of-type(2) p:nth-of-type(3){
+    grid-column:2;
+    grid-row:3;
+    align-self:end;
+    margin-left:7%;
+    font-size:1.5em
+}
+/*Article 2 styling.........................*/
+div:nth-of-type(2) article:first-of-type{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 80% 15%;
+    grid-row-gap: 0.3em;
+    grid-auto-flow:row;
+    margin-top:10em;
+}
+div:nth-of-type(2) article:first-of-type img{
+    grid-column:2;
+    grid-row:2;
+    width:100%
+}
+div:nth-of-type(2) article:first-of-type h3{
+    grid-column:2;
+    grid-row:3;
+    background-color:black;
+    color:white;
+    font-size:1.6em;
+    align-self: start;
+    padding:1em; margin-top:-2em;
+}
+
+/*Section 4 styling.......................*/
+div:nth-of-type(2) section:nth-of-type(3){
+    margin-top:9em;
+}
+div:nth-of-type(2) section:nth-of-type(3) h3{
+    grid-column:2;
+    grid-row:2;
+}
+div:nth-of-type(2) section:nth-of-type(3) p:nth-of-type(2){
+    grid-column:2;
+    grid-row:2;
+    align-self: end;
+}
+div:nth-of-type(2) section:nth-of-type(3) ul{
+    display: flex;
+    flex-direction: column;
+    grid-column:2; grid-row:3;
+    align-self:start;
+    margin:0; padding:0;
+}
+div:nth-of-type(2) section:nth-of-type(3) ul li button {
+    width:20em; height:3em;
+    text-align: left;
+    border: none; background-color:pink;
+}
+div:nth-of-type(2) section:nth-of-type(3) ul li input{
+    width:19.5em; height:3em;
+    border:1px solid black; background-color:white;
+}
+/*Section 5 styling.......................*/
+div:nth-of-type(2) section:nth-of-type(5){
+    margin-top:25em;
+}
+
+div:nth-of-type(2) section:nth-of-type(5) ul:first-of-type{
+    display: flex;
+    grid-column:2;
+    grid-row:1;
+    justify-self:end;
+    align-self:end;
+    margin:0.1em; padding:0;
+}
+
+div:nth-of-type(2) section:nth-of-type(5) ul:first-of-type li button{
+    width:5em; height:2em; padding:0.1em; margin:0 0.2em;
+    background-color:pink; border:none;
+}
+
+div:nth-of-type(2) section:nth-of-type(5) ul:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    grid-column:2;
+    grid-row:2;
+    padding:0;
+}
+div:nth-of-type(2) section:nth-of-type(5) ul:nth-of-type(2) li{
+    width:auto; height:1.4em; background-color:lightyellow;
+    margin:0 0.1em; padding:0.1em 0.5em
+}
+
+div:nth-of-type(2) section:nth-of-type(5) img{
+    grid-column:2;
+    grid-row:2;
+    width:100%;
+}
+div:nth-of-type(2) section:nth-of-type(5) h3{
+    writing-mode:vertical-rl;
+    color:darkcyan;
+    grid-column:2;
+    grid-row:2;
+    justify-self:start;
+    font-size:2em;
+}
+/*Section 6 styling....................*/
+div:nth-of-type(3) section:first-of-type{
+    margin-top:12em;
+}
+div:nth-of-type(3) section:first-of-type h3{
+    writing-mode:vertical-rl;
+    grid-column:2;
+    grid-row:2;
+    justify-self:start;
+    font-size:4em; margin:0.3em 0;
+}
+div:nth-of-type(3) section:first-of-type a{
+    grid-column:2;
+    grid-row:2;
+    align-self: end;
+    background-color:black; color:white;
+    width:15em; padding:0.5em
+}
+/*Footer styling..........................*/
+footer ul{
+    display: flex;
+    flex-direction: column;
+    border-top:1px solid grey;
+    width:20em;
+    margin-left:4em;
+}
+
+footer ul li{
+    margin:0.6em 0 ;
+}
+footer p{
+    font-size:0.5em;
+    margin:0 0 5em 0;
+    padding:0;
+    text-align: center;
+
+}
+/*annimatie linkerkant van het scherm..........*/
+main section div:first-of-type p{
+    grid-column: 1;
+    grid-row:1;
+    font-size:0.6em;
+    color:red;
+    font-weight: 500;
+    animation-name:continueRibbon;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+}
+@keyframes continueRibbon{
+    0%{ transform:translateY(0);}
+    100%{transform:translateY(-270px);}
+}
+
+/*annimatie blinker logo.............*/
+.animatie span{
+    grid-column: 2;
+    grid-row:2;
+    writing-mode:vertical-rl;
+    font-size:14em;
+    justify-self:start;
+    margin:0.3em 0; padding:0;
+    font-weight: 600;
+}
+.animatie span:first-of-type{
+    animation-name:blinkerSpan1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+.animatie span:nth-of-type(2){
+    animation-name:blinkerSpan2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.animatie span:nth-of-type(3){
+    animation-name:blinkerSpan3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+.animatie span:nth-of-type(4){
+    animation-name:blinkerSpan4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+.animatie span:nth-of-type(5){
+    animation-name:blinkerSpan5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes blinkerSpan1{
+    0% {opacity:1;}
+    10% {opacity:0;}
+    100% {opacity:0;}
+}
+
+@keyframes blinkerSpan2{
+    0% {opacity:0;}
+    10% {opacity:0;}
+    20% {opacity:1;}
+    30% {opacity:0;}
+    100% {opacity:0;}
+}
+@keyframes blinkerSpan3{
+    0% {opacity:0;}
+    30% {opacity:0;}
+    40% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:0;}
+}
+@keyframes blinkerSpan4{
+    0% {opacity:0;}
+    50% {opacity:0;}
+    60% {opacity:1;}
+    70% {opacity:0;}
+    100% {opacity:0;}
+}
+@keyframes blinkerSpan5{
+    0% {opacity:0;}
+    70% {opacity:0;}
+    80% {opacity:1;}
+    90% {opacity:0;}
+    100% {opacity:0;}
+}
