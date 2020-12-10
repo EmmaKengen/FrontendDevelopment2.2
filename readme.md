@@ -10,6 +10,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://www.collusion.com/
 3. https://developer.mozilla.org/en-US/docs/Web/CSS/display
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/
+6. https://css-tricks.com/snippets/css/complete-guide-grid/
 
 
 
@@ -30,8 +32,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
+## Stand van zaken
 
--same as voortgang 1-
+Wat ging goed?
+- Werken met grid, ook al heb ik er nooit mee gewerkt.
+- Het niet gebruiken van classes waar mogelijk.
+
+Wat vond ik lastig?
+- Het implementeren van een annimatie
+- Het werken met verschillende lagen
+
+Waar ik nog niet aan toe ben gekomen?
+- Ik ben opnieuw begonnen, derde versie, omdat mijn code nogal onoverzichtelijk werd, hierdoor heb ik nog niet veel tijd besteed aan het implementeren van Javascript/Annimaties
 
 
 
@@ -52,6 +64,12 @@ Waar ik nog niet aan toe ben gekomen?
 - het implementen van javascript
 - het toevoegen van annimaties
 
+## Agenda voor de meeting
+
+
+
+
+## Verslag na de meeting
 
 **Screenshot(s):**
 
