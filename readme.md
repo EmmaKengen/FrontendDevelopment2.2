@@ -27,7 +27,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Wat ging goed?
+- annimatie maken
+
+Wat vond ik lastig?
+- het goed krijgen van de afbeeldingen/background-colors in een grid
+
+Waar ik nog niet aan toe ben gekomen?
+- Verdiepen in micro-interacties/surface plane. Eventueel kijken naar het maken van een responsive website.
 
 
 
