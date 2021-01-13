@@ -58,7 +58,7 @@ Waar ik nog niet aan toe ben gekomen?
 
 **Screenshot(s):**
 
-<img src="images/week6.details.png" width="375px" alt="Versie3 gecodeerd">
+<img src="images/week6.detail.png" width="375px" alt="Versie3 gecodeerd">
 
 ## Voortgang 2 (week 5)
 ## Stand van zaken
@@ -82,7 +82,7 @@ Waar ik nog niet aan toe ben gekomen?
 
 **Screenshot(s):**
 
-<img src="images/week5.png" width="375px" alt="Versie2 gecodeerd">
+<img src="images/Week5.png" width="375px" alt="Versie2 gecodeerd">
 
 ## Voortgang 1 (week 3)
 
