@@ -12,31 +12,51 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 5. https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/
 6. https://css-tricks.com/snippets/css/complete-guide-grid/
+7. https://codepen.io/shooft/pen/jOMOroZ
+8. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
 
 
 
 ## Eindgesprek (week 7/8)
+Wat ging goed?
+- als ik eenmaal bezig was, dan lukte het ook om alles op de juiste plek te krijgen
+- werken met keyframe ging soepeler dan verwacht
 
--dit ging goed & dit was lastig-
+Wat vond ik lastig?
+- Zorgen dat ik niet codes dubbel schrijf. Ik ben 3x opnieuw begonnen om ervoor te zorgen dat ik zo min mogelijk code gebruik. Dus i.p.v. position, ben ik gaan werken met grid, maar uiteindelijk heb ik volgensmij meer code gebruikt dan bij eerdere versies. Dus opnieuw beginnen is niet altijd het antwoord ;)
+- Het werken met javascript. Ik zorgt meestal inspiratie op online, zag allerlei toffe micro-interacties met confetti en icons, maar meestal liep ik al vast bij de eerste paar stappen.
+- Ik was heel gefocust op het exact namaken van de website, dat ik de surface plane telkens uitstelde, waardoor ik aan het einde niet veel tijd overhad om uitgebreid bezig te zijn met javascript.
+
+Waar ik nog niet aan toe ben gekomen?
+- Ik heb uiteindelijk van alles een beetje gedaan, keyframes, javascript, toegankelijkheid en grid. Dingen waarmee ik voorheen nooit echt mee heb gewerkt. Enige waar ik niet meer echt aan toe ben gekomen is het responsive maken van de website en dus werken met media queries. Dit is iets waar ik me in de toekomst nog wel mee bezig wil houden.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="" width="375px" alt="Eindversie gecodeerd">
 
 
 
 ## Voortgang 3 (week 6)
-
+## Stand van zaken
 Wat ging goed?
 - annimatie maken
 
 Wat vond ik lastig?
 - het goed krijgen van de afbeeldingen/background-colors in een grid
+- Img overlapt de tekst, hoe krijg kan ik dat veranderen.
 
 Waar ik nog niet aan toe ben gekomen?
 - Verdiepen in micro-interacties/surface plane. Eventueel kijken naar het maken van een responsive website.
 
+### Verslag van meeting
 
+- Background img & background-color kunnen niet op een grid worden gezet, dus je kan ze op de content zetten.
+- Je bent erg gefocust op het namaken van de website, probeer nu ook te focussen op toegankelijkheid en micro-interacties.
+- Z-index kan ook gebruikt worden zonder position:relative/absolute, dus hiermee kan je afbeeldingen naar de achtergrond zetten en content naar de voorgrond.
+
+**Screenshot(s):**
+
+<img src="" width="375px" alt="Versie3 gecodeerd">
 
 ## Voortgang 2 (week 5)
 ## Stand van zaken
@@ -52,7 +72,15 @@ Wat vond ik lastig?
 Waar ik nog niet aan toe ben gekomen?
 - Ik ben opnieuw begonnen, derde versie, omdat mijn code nogal onoverzichtelijk werd, hierdoor heb ik nog niet veel tijd besteed aan het implementeren van Javascript/Annimaties
 
+### Verslag van meeting
 
+- Annimatie semantisch correct maken, nu nog veel regels, misschien kan je het samenvoegen door bijvoorbeeld een animation delay.
+- Annimatie tekst links v.h. scherm met javascript
+- Background img & background-color op grid zetten
+
+**Screenshot(s):**
+
+<img src="" width="375px" alt="Versie2 gecodeerd">
 
 ## Voortgang 1 (week 3)
 
@@ -70,17 +98,6 @@ Waar ik nog niet aan toe ben gekomen?
 - het werken aan de tweede pagina
 - het implementen van javascript
 - het toevoegen van annimaties
-
-## Agenda voor de meeting
-
-
-
-
-## Verslag na de meeting
-
-**Screenshot(s):**
-
-<img src="images/week3.voortgang.png" width="375px" alt="homepage collusion gecodeerd">
 
 ### Agenda voor meeting
 
@@ -100,7 +117,9 @@ Dingen die nog beter kunnen:
 - alle classes op de flexbox in ul li lijstjes zetten
 - % en em mogen beide gebruikt worden (geen px)
 
+**Screenshot(s):**
 
+<img src="images/week3.voortgang.png" width="375px" alt="Versie1 gecodeerd">
 
 ## Breakdownschets (week 1)
 
