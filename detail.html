@@ -12,22 +12,83 @@
     <link rel="stylesheet" href="styles/collusion.css">
 </head>
 
-<body id='detailpagina'>
+<body id="detailpagina">
     <header>
         <button>
             <span></span>
             <span></span>
             <span></span>
         </button>
+        <nav>
+            <h2>Collection</h2>
+            <ul>
+                <li><a href="">View whole collection</a></li>
+                <li><a href="">accessories</a></li>
+                <li><a href="">Coats & jackets</a></li>
+                <li><a href="">Knitwear</a></li>
+                <li><a href="">Dresses</a></li>
+                <li><a href="">Tops</a></li>
+                <li><a href="">Skirts & trousers</a></li>
+                <li><a href="">Jeans</a></li>
+                <li><a href="">Jumpsuits & playsuits</a></li>
+            </ul>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Collaborators</a></li>
+                <li><a href="">Drops</a></li>
+                <li><a href="">Editorial</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+
+            <h2>Tags</h2>
+            <ul>
+                <li><a href="">View all tags</a></li>
+                <li><a href="">Denim</a></li>
+                <li><a href="">Petit</a></li>
+                <li><a href="">Plus</a></li>
+                <li><a href="">Tall</a></li>
+                <li><a href="">Black</a></li>
+                <li><a href="">White</a></li>
+                <li><a href="">Colour-Block</a></li>
+                <li><a href="">Identity</a></li>
+
+            </ul>
+
+        </nav>
+
         <img src="images/icongrey.png" alt="collusion logo white">
         <img src="images/afbeelding.pagina2.jpg" alt="">
         <h1>'New destination' spring 2020 lookbook</h1>
-        <ul>
-            <li>By collusion team</li>
-            <li>Date 09.03.2020</li>
+        <ul class="flexbox">
+            <!--ik gebruik hier een class, omdat ik met de pseudo class :first-of-type of :last-of type, ook de ul meepak van de navigatie.-->
+            <li>By <br> collusion team</li>
+            <li>Date <br> 09.03.2020</li>
         </ul>
     </header>
+
     <main>
+        <div>
+            <p>For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+                For the coming age &emsp; &emsp; &emsp; &emsp;
+            </p>
+        </div>
+
         <section>
             <a href="">Editorial</a>
             <p>Editorials</p>
@@ -36,18 +97,18 @@
             <p>Our spring collection mixes the glamorous days of laid-back skate culture with a glamorous twist of 1980s Miami. The 'New Destination' lookbook encapsulates a step away from the familiar and into the unknown.</p>
             <img src="images/pagina2.afbeelding2.jpg" alt="">
             <p>In the age of digital interactions, we are more connected than ever. But there is another side to this; engaging through social media can leave us feeling disconnected from the 'here and now', distant from the people who we most love to spend time with. While it may be important to share love online, perhaps some days it's important to meet up with a friend, board a train together and see where it takes you.</p>
-               <p>
+            <p>
                 This nostalgic spring collection evokes hot, hazy summers from decades past. Stonewashed denim with extreme rips, vintage photographic prints over softer pastel hues - the 1980s run through every fibre of these styles. The 2020 juxtaposition flows in through techy nylon fabrics and slouchy jersey to soften bold 80s silhouettes. As always, inclusivity sits at the core; we've worked hard to create a collection that can be worn by anyone, regardless of their gender identity.
-</p>
-                <p>We’d like you to join us on this journey. Text a friend, get together, choose somewhere unfamiliar on the map and step into the unknown.</p>
+            </p>
+            <p>We’d like you to join us on this journey. Text a friend, get together, choose somewhere unfamiliar on the map and step into the unknown.</p>
 
-                <ul>
-                    <li><img src="images/pagina2.afbeelding3.jpg" alt=""></li>
-                    <li><img src="images/pagina2.afbeelding4.jpg" alt=""></li>
-                    <li><img src="images/pagina2.afbeelding5.jpg" alt=""></li>
-                    <li><img src="images/pagina2.afbeelding6.jpg" alt=""></li>
-                    <li><img src="images/pagina2.afbeelding7.jpg" alt=""></li>
-                </ul>
+            <ul class="slider">
+                <li><img src="images/pagina2.afbeelding3.jpg" alt=""></li>
+                <li><img src="images/pagina2.afbeelding4.jpg" alt=""></li>
+                <li><img src="images/pagina2.afbeelding5.jpg" alt=""></li>
+                <li><img src="images/pagina2.afbeelding6.jpg" alt=""></li>
+                <li><img src="images/pagina2.afbeelding7.jpg" alt=""></li>
+            </ul>
         </section>
     </main>
 
@@ -62,6 +123,7 @@
         </ul>
         <p>&copy; collusion</p>
     </footer>
+
     <script src=javascript/collusion.js></script>
 </body>
 
