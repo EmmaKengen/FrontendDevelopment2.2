@@ -34,7 +34,7 @@ Waar ik nog niet aan toe ben gekomen?
 
 <img src="images/Eindversie.home.png" width="375px" alt="Eindversie gecodeerd">
 <img src="images/Eindversie.png" width="375px" alt="Eindversie gecodeerd">
-<img src="images/Eindversie.nav" width="375px" alt="Eindversie gecodeerd">
+<img src="images/Eindversie.nav.png" width="375px" alt="Eindversie gecodeerd">
 
 
 
