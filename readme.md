@@ -32,7 +32,9 @@ Waar ik nog niet aan toe ben gekomen?
 
 **Screenshot(s):**
 
-<img src="" width="375px" alt="Eindversie gecodeerd">
+<img src="images/Eindversie.home.png" width="375px" alt="Eindversie gecodeerd">
+<img src="images/Eindversie.png" width="375px" alt="Eindversie gecodeerd">
+<img src="images/Eindversie.nav" width="375px" alt="Eindversie gecodeerd">
 
 
 
@@ -56,7 +58,7 @@ Waar ik nog niet aan toe ben gekomen?
 
 **Screenshot(s):**
 
-<img src="" width="375px" alt="Versie3 gecodeerd">
+<img src="images/week6.details.png" width="375px" alt="Versie3 gecodeerd">
 
 ## Voortgang 2 (week 5)
 ## Stand van zaken
@@ -80,7 +82,7 @@ Waar ik nog niet aan toe ben gekomen?
 
 **Screenshot(s):**
 
-<img src="" width="375px" alt="Versie2 gecodeerd">
+<img src="images/week5.png" width="375px" alt="Versie2 gecodeerd">
 
 ## Voortgang 1 (week 3)
 
